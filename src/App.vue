@@ -17,7 +17,6 @@
 
       <Result :data="result" v-else @reset="handleReset" key="result" />
     </Transition>
-    <test />
   </div>
 </template>
 
@@ -28,7 +27,6 @@ import Result from './components/Result.vue'
 import { ref, computed } from 'vue'
 import { data } from './data'
 import { results } from './data'
-import test from './components/Test.vue'
 
 const questionsAnswered = ref(0)
 const correctAnswersCount = ref(0)

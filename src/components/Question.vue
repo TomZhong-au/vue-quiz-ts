@@ -17,7 +17,6 @@
 <script setup lang="ts">
 type Prop = {
   questionData: {
-    id: string
     q: string
     answers: {
       text: string
